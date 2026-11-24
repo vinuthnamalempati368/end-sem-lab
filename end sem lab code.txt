@@ -1,0 +1,23 @@
+script.js
+
+<html>
+<body>
+<h2>Sign Up</h2>
+
+<input id="n" placeholder="Name"><br><br>
+<input id="e" placeholder="Email"><br><br>
+<input id="p" type="password" placeholder="Password"><br><br>
+
+<button onclick="signup()">Enter</button>
+
+<script>
+function signup() {
+    let n = document.getElementById("n").value;
+    let e = document.getElementById("e").value;
+    let p = document.getElementById("p").value;
+
+    alert("Welcome " + n);
+}
+</script>
+</body>
+</html>
